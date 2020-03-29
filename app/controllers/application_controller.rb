@@ -41,7 +41,8 @@ session[:user_id] = @user.id
  if  @user && params[:password] == @user.password
     session[:user_id] = @user.id
 redirect "/users/home"
- 
+ else 
+   
   
 end
     
