@@ -42,7 +42,7 @@ session[:user_id] = @user.id
     session[:user_id] = @user.id
 redirect "/users/home"
  else 
-   redirect 
+   redirect 'sessions/login'
   
 end
     
